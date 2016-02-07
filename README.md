@@ -12,7 +12,7 @@ There we a handful of distinct features to our approach that allowed us to domin
  – Once we arrived in the center of the field, we use a radar method to rotate until we have found Corners which triggered an OnScannedRobotEvent adapted from sample bot TrackFire.   
  
 ### Shooting
- – By acquiring Corners’ velocity, we can understand when Corners has reached its corner and only when it has reached its corner (velocity ~= 0), do we start shooting the largest bullets possible, as we know Corners won’t move from this corner.   
+ – By acquiring Corners’ velocity, we can understand when Corners has reached its corner and only when it has reached its corner (velocity ~= 0), so we start shooting the largest bullets possible, as we know Corners won’t move from this corner.   
 
 ### Strafing
  – We line up orthogonally (90 degree angle) to Corners and every couple of ticks of the game, we change move significantly in the other direction. This allows for us to avoid the majority of Corners’ bullet fires.   
